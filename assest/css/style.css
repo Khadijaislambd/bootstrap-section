@@ -1,0 +1,73 @@
+
+/* header start */
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/hero_bg.jpg");
+    height: 100vh;
+    min-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.primary-btn {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #ff5200;
+    font-size: 14px;
+}
+.main-menu {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.social-icon {
+     height: 40px;
+     width: 40px;
+     text-decoration: none;
+     color: orangered;
+}
+.hero-social-icon {
+    list-style: none;
+}
+/* header end */
+img {
+    height: 300px;
+    object-fit: cover;
+  
+} 
+/* <!--  section help us start--> */
+.help-us {
+    background-color: gainsboro;
+}
+.card {
+    background-color: gainsboro;
+    position: relative;
+    border: none;
+}
+ i::before {
+    position: absolute;
+    content: "";
+    left: 17px;
+    top: 49px;
+    font-size: 20px;
+    padding: 3px 5px; 
+}
+/* <!--  section help us end--> */
+/* <!-- section-comment start--> */
+.patients-comment section {
+    height: 100vh;
+    background-image: ("../img/white-bg.png");
+    border: 2px solid red;
+}
+.client img {
+height: 100px;
+width: 100px;
+border: 1px solid green;
+border-radius: 50%;
+}
+.c-details {
+    font-size: 18px;
+}
+.profession {
+    font-size: 14px;
+}
+/* <!-- section-comment end--> */
